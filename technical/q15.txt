@@ -1,0 +1,8 @@
+
+Mention three field types used in Odoo 16 models
+
+the common fields types in odoo:-
+- Char: This field type is used to store strings 
+- Float: This field type is used to store float or decimal numbers
+- Integer: This field type is used to store integer numbers
+- Boolean: This field type is used to store true/false values, such as yes/no or on/off options

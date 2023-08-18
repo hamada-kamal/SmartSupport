@@ -1,0 +1,4 @@
+
+Define a superclass in object-oriented programming.
+
+in object-oriented, a class that the other classes (child classes) inherited its properties and methods called a superclass (parent class)

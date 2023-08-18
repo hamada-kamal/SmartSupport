@@ -1,0 +1,18 @@
+
+What different types of model inheritance are used in Odoo 16?
+
+in odoo 16 there are three types of model inheritance:-
+  
+  1- classical inheritance:
+  	in this type we don't need to use the _name attribute with _inherit attribute because the _name of the parent is a default
+  	this type update the parent table without create a new one in the database	
+  
+  2- prototype inheritance:
+  	we use the _name attribute with _inherit attribute
+  	this type create a new table in the database
+  	
+  3- delegation inheritance:
+  	- in this type we use the _ inherits attribute to create a synchronous relation between the parent and the child(Many2one)
+  	- the child can inherit from multiple models
+  	- if a new record created in the child its automatically created in the parent
+  	

@@ -1,0 +1,6 @@
+ 
+Briefly explain Wizards, Reports, and Actions in Odoo 16.
+
+Wizard:- is a user interface components that allow the users to perform or execute complexe calculations before execute an action
+Reports:- reports are the documents that can be print or download, this reports show data or information about the business
+Actions:- are an even that happend when the button or menu item clicked or create a new record etc.. 

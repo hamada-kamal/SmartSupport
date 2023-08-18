@@ -1,0 +1,6 @@
+
+What is inheritance in programming?
+
+- It is one of the core concepts of object-oriented programming-
+- the child class inherit properities and methods from the parent class or superclass . 
+- offers advantages such as code reusability

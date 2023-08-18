@@ -1,0 +1,25 @@
+
+
+<!-- the external id in odoo 16 is a unique id that refers to specific record in database-->
+
+<!-- 
+how can you use it in building a new view?
+there are tow way
+First:
+  - create a new view
+  - giving the the view an id, this id called external id 
+  For example
+-->
+<record id="external_id" model="ir.ui.view">
+    the content of record ..
+</record>
+
+<!-- 
+Second:
+  - how can you use it to inherit a view?
+  - we can inherit a view using it's external id 
+For example
+-->
+<record id="" model="">
+  <field name="inherit_id" ref="module_name.external_id"/>
+</record>

@@ -1,0 +1,15 @@
+
+Write simple code to append a Menu Item called "Branches" to Odoo's user menu in version 16.
+
+<odoo>
+    <data>
+        <record id="menu_branches" model="ir.ui.menu">
+            <field name="name">Branches</field>
+            <field name="parent_id" ref="base.menu_user_root"/>
+            <field name="action" ref="your_module.action_branches"/>
+            <field name="sequence" type="int">15</field>
+            <field name="groups_id" eval="[(6, 0, [ref('base.group_user')])]"/>
+        </record>
+    </data>
+</odoo>
+

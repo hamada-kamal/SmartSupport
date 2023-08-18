@@ -1,0 +1,14 @@
+
+Highlight the differences between Lists and Tuples in Python.
+
+Syntax: 
+>>Lists are defined by using square brackets [ ]
+>>Tuples are defined by using parentheses ( )
+
+Modifing: 
+>>Lists are mutable
+>>Tuples are immutable
+
+Size:
+>>Lists can dynamically change in size by adding or removing elements.
+>>Tuples have a fixed size

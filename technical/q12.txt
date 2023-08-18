@@ -1,0 +1,22 @@
+
+Define method overloading and method overriding.
+
+overloading:- defining multiple methods with the same name within a class but with different parameters
+for exampl >>
+not that python doesn't support overloading like other language c++ , java, usually achieved through the use of default argument values
+ 
+class Smart:
+    def calc(self,num1,num2=None):
+        return num1 + num2  if num2 else num1
+
+    
+    
+overriding >> subclass providing a different implementation of a method that is already defined in its superclass, the method in the subclass must have the same name
+for exampl >>
+class Car:
+    def move(self):
+        print("The car is moving now!")
+
+class Boate:
+    def move(self):
+        print("The boat is sailing now")

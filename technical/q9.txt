@@ -1,0 +1,11 @@
+
+Describe the composition (structure) of an Odoo Module in version 16.
+
+>>in odoo 16 the module structure consist of 
+ 1- __manifest__.py file >> this file define information about our module like auther, name, depends[the modules that our module need its]
+ 2- __init__.py >> this file used to make our directory become a python packeg.
+ 3- models directory >> the directory that contains Python classes that are converted to tables in the database.
+ 4- views directory >> the directory that contains xml files that define the user interface.
+ 5- Reports >> a directory that is responsible to create reports documents like Pdf or HTML.
+ 6- Static >> a directory that is containing the CSS, Javascript files, and Images for our module.
+ 7- I18n >> a directory that contains the translation files.
